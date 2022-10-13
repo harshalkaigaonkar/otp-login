@@ -38,9 +38,9 @@ const Home: NextPage = () => {
             console.log(user)
           }
           else
-          toast.error("Incorrect OTP!!")
-        }).catch((error: FirebaseError) => {
           toast.error("OTP Limit Exceeded!!")
+        }).catch((error: FirebaseError) => {
+          toast.error("Incorrect OTP!!")
           console.log(error)
         })
       }
