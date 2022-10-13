@@ -247,7 +247,7 @@ const Home: NextPage = () => {
             </>
           ): (
             <>
-            <span className='text-xl font-light w-full'>Hey <b>{name}</b>, we've sent an OTP to <b>{phno}</b>.</span>
+            <span className='text-xl font-light w-full'>Hey <b>{name}</b>, we{`&apos;`}ve sent an OTP to <b>{phno}</b></span>
               <div className='flex flex-row justify-center gap-3'>
                 <input
                       id="otp1"
